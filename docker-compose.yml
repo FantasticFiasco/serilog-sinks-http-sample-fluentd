@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+
+  fluentd:
+    build:
+      context: ./fluentd
+
+  serilog-example:
+    build:
+      context: ./serilog
