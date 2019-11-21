@@ -1,0 +1,9 @@
+image: ubuntu
+
+services:
+  - docker
+
+build_script:
+  - ./build/build.sh
+
+test: off
