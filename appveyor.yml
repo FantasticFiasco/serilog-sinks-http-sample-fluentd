@@ -1,0 +1,12 @@
+image: ubuntu
+
+stack:
+  - python 3.8
+
+services:
+  - docker
+
+build_script:
+  - ./build/build.sh
+
+test: off
