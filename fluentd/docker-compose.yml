@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  fluentd:
+    build:
+      context: ./
+    ports:
+      - "9880:9880"
+    networks:
+      - fluentd
+
+networks:
+  fluentd:
+    driver: bridge
