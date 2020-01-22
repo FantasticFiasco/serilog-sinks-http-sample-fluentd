@@ -1,3 +1,3 @@
-FROM fluent/fluentd:v1.8-1
+FROM fluent/fluentd:v1.9-1
 
 COPY ./fluent.conf /fluentd/etc/
