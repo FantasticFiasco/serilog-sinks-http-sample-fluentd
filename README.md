@@ -2,7 +2,7 @@
 
 ## Introduction
 
-[Fluentd](https://www.fluentd.org/) is an open source data collector providing a unified logging layer. [Serilog](https://serilog.net/) is fantastic at producing structured log events. This repository provides a sandbox where developers can explore the life of a log event starting with its birth in Serilog, its transport over the network using HTTP, and finally being collected and processed in Fluentd.
+[Fluentd](https://www.fluentd.org/) is an open source data collector providing a unified logging layer. [Serilog](https://serilog.net/) is fantastic at producing structured log events. This repository provides a sandbox where developers can explore the life of a log event starting with its birth in Serilog, its transport over the network using HTTP, and finally being collected and processed by Fluentd.
 
 ## What you will end up with
 

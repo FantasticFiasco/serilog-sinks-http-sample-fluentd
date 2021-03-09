@@ -1,10 +1,6 @@
 {
-    "spellright.language": [
-        "English (American)"
-    ],
-    "spellright.documentTypes": [
-        "markdown",
-        "latex",
-        "plaintext"
+    "cSpell.words": [
+        "Fluentd",
+        "Serilog"
     ]
 }
