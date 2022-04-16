@@ -1,6 +1,4 @@
-﻿using System;
-using System.Threading;
-using Bogus;
+﻿using System.Threading;
 using Serilog;
 using Serilog.Sinks.Http.BatchFormatters;
 using SerilogExample.Generators;
