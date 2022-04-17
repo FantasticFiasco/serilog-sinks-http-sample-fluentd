@@ -20,5 +20,5 @@ With a running Fluentd server and Serilog producing log events you are now ready
 Start two services, one producing log events and one consuming them, with the following command.
 
 ```posh
-docker-compose up
+docker compose up
 ```
