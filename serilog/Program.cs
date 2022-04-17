@@ -10,9 +10,7 @@ namespace SerilogExample
         static void Main()
         {
             ILogger logger = new LoggerConfiguration()
-                .WriteTo.DurableHttpUsingFileSizeRolledBuffers(
-                    requestUri: "http://fluentd:9880/myapp.test",
-                    batchFormatter: new ArrayBatchFormatter())
+                .WriteTo.DurableHttpUsingFileSizeRolledBuffers(requestUri: "http://fluentd:9880/myapp.test")
                 .WriteTo.Console()
                 .CreateLogger()
                 .ForContext<Program>();
